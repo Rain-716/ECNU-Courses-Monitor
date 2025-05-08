@@ -53,8 +53,6 @@ def run_task():
         # captcha_input.send_keys(captcha_text)
         # driver.find_element(By.ID, 'submitBtn').click()
 
-        input("按回车键继续")
-
         enter_button = WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable((By.LINK_TEXT, '进入选课>>>>'))
         )
