@@ -11,8 +11,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from openpyxl.utils import get_column_letter
 
 # 用户配置
-USERNAME = '10245102440'
-PASSWORD = 'E1048576cnu@0819'
+USERNAME = '你的学号'
+PASSWORD = '你的公共数据库密码'
 LOGIN_URL = 'https://applicationnewjw.ecnu.edu.cn/eams/stdElectCourse.action'
 TARGET_URL = 'https://applicationnewjw.ecnu.edu.cn/eams/stdElectCourse!queryStdCount.action?profileId=6022'
 JS_FILE_COUNTS = 'stdElectCourse!queryStdCount.js'
